@@ -1,0 +1,71 @@
+/*CUERPO*/
+
+
+/*PIE DE PAGINA*/
+.pie-de-pagina {
+    width: 100%;
+}
+
+.footer-section {
+    padding: 1px;
+    color: #fff;
+}
+
+.section-uno {
+    background-color: #224573; /* Cambia esto al color que desees */
+}
+
+.section-dos {
+    background-color: #0E3129; /* Cambia esto al color que desees */
+}
+
+.section {
+    display: flex;
+    margin: 20px 0;
+    padding: 40px;
+    align-items: flex-start; /* Alinea los elementos verticalmente al centro */
+}
+
+.section1 {
+    text-align:left;
+    margin-left: 30px;
+    margin-right: 70px;
+}
+
+.gob {
+    width: 200px; /* Ancho deseado */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.links{
+    margin-top: 15px;
+    text-decoration: none; /* Eliminar subrayado */
+    display: inline-block;
+    color: white; /* Color del texto */
+}
+
+.linksa{
+    text-decoration: none; /* Eliminar subrayado */
+    display: inline-block;
+    color: white; /* Color del texto */
+}
+
+.map-container {
+    width: 700px;
+    height: 200px;
+    position: relative;
+    margin: 20px;
+    margin-left: 90px;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}

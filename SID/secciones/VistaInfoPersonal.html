@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventana Emergente - Información del Personal</title>
+    <link rel="stylesheet" href="../css/styles2.css">
+</head>
+<body>
+    <div class="modal" id="modal-informacion-personal">
+        <div class="modal-content" id="modalC">
+            <span class="close-button" onclick="closeModal('modal-informacion-personal')">&times;</span>
+            <h2>Información del Personal</h2>
+            <p><strong>Nombre Completo Personal</strong></p>
+            <p>Estatus: Activo</p>
+            <p>Plaza: Tiempo Completo</p>
+            <p>Máximo grado de estudios: Licenciatura</p>
+            <p>Certificaciones: Si</p>
+            <p>Asociaciones: 0</p>
+            <p>Tutor: Si</p>
+            <p>Licencia: No</p>
+            <p>Sabático: No</p>
+            <p>Jefe de Proyecto Docente</p>
+            <p>Última actualización: 00 - 00 - 0000</p>
+            <p>Puestos desempeñados:</p>
+            <p>ENE/JUN 2020 - AGO/DIC 2023</p>
+            <p>ENE/JUN 2017 - AGO/DIC 2019 | Investigador</p>
+        </div>
+    </div>
+
+    <script>
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = 'none';
+        }
+    </script>
+</body>
+</html>

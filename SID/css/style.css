@@ -1,0 +1,303 @@
+/*CUERPO*/
+body {
+    background-color: beige;
+    font-family: Roboto; /* Fuente del texto */
+    margin: 0; /* Eliminar márgenes predeterminados */
+    padding: 0; /* Eliminar relleno predeterminado */
+}
+
+.fondo{
+    background-image: url('../images/fond.svg'); /* Imagen de prueba */
+    background-size: cover; /* Asegurar que la imagen cubra todo el fondo */
+    background-position: center; /* Centrar la imagen de fondo */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    display: flex; /* Utilizar flexbox */
+    justify-content: center; /* Centrar contenido horizontalmente */
+    align-items: center; /* Centrar contenido verticalmente */
+    width: 100%;
+    height: 100%;
+}
+
+.contenido {
+    background-color: rgb(255, 255, 255); /* Fondo blanco semitransparente */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para el rectángulo */
+    margin: 40px;
+    max-width: 600px; /* Máximo ancho del contenedor */
+    width: 100%; /* Ancho del 100% para dispositivos móviles */
+    border-left: 10px solid #224573; /* Borde izquierdo */
+    border-right: 10px solid #224573; /* Borde derecho */
+}
+
+.titulos {
+    color: #3180C2;
+    padding: 1px; /* Espaciado interno del encabezado */
+}
+
+.titulos1 {
+    color: #000000;
+    margin-left: 20px;
+}
+
+.cont {
+    display: flex;
+    margin: 10px;
+}
+
+.cont1 {
+    margin: 20px;
+}
+
+.cont2{
+    margin: 0px;
+}
+
+.cont3{
+    display: flex;
+}
+
+.cont4{
+    display: flex;
+    padding: 1px;
+}
+
+/*ICONOS*/
+.icon-white {
+    font-size: 20px; /* Cambiar el tamaño del ícono */
+    color: #ffffff;  /* Cambiar el color del ícono */
+    margin-top: 5px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.icon-blue {
+    font-size: 25px; /* Cambiar el tamaño del ícono */
+    color: dodgerblue;  /* Cambiar el color del ícono */
+    margin-right: 10px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+/*CAJAS DE TEXTO*/
+input[type="text"] {
+    width: 280px; /* Ancho de la caja de texto */
+    padding: 10px; /* Espaciado interno */
+    border: 2px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 14px; /* Tamaño de fuente */
+    outline: none; /* Eliminar borde de enfoque */
+    transition: border-color 0.3s; /* Transición suave para el borde */
+}
+
+input[type="text"]:focus {
+    border-color: dodgerblue; /* Cambio de color del borde al enfocar */
+}
+
+input[type="password"] {
+    width: 280px; /* Ancho de la caja de texto */
+    padding: 10px; /* Espaciado interno */
+    border: 2px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 14px; /* Tamaño de fuente */
+    outline: none; /* Eliminar borde de enfoque */
+    transition: border-color 0.3s; /* Transición suave para el borde */
+}
+
+input[type="password"]:focus {
+    border-color: dodgerblue; /* Cambio de color del borde al enfocar */
+}
+
+::placeholder {
+    color: #999; /* Color del texto del marcador de posición */
+}
+
+/*BOTONES*/
+.boton-ingresar {
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0); /* Color del texto */
+    background-color: #FBCD15; /* Color de fondo */
+    text-decoration: none; /* Eliminar subrayado */
+    border-radius: 2px; /* Bordes redondeados */
+    border: none;
+    font-size: 12px; /* Tamaño de fuente */
+    font-weight: bold; /* Texto en negrita */
+    text-align: center; /* Alinear el texto al centro */
+    transition: background-color 0.3s ease; /* Transición suave para el fondo */
+    margin-left: 120px;
+}
+
+/*ENCABEZADOS*/
+.encabezado1 { /*Primer encabezado*/
+    background-color: #0E3129; /* Color de fondo del encabezado */
+    padding: 5px; /* Espaciado interno del encabezado */
+    color: white; /* Color del texto dentro del encabezado */
+    display: flex; /* Utilizar flexbox */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.contenido_encabezado1 {
+    display: flex; /* Utilizar flexbox dentro del contenedor */
+    justify-content: space-between; /* Espaciar elementos a los lados */
+    width: 100%; /* Hacer que el contenedor ocupe el 100% del ancho */
+}
+
+.small-svg {
+    width: 100px; /* Ancho deseado */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+}
+
+.search-svg {
+    width: 20px; /* Ancho deseado */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+    color:white;
+}
+
+.listaE1 {
+    margin-left: auto; /* Empujar la lista al lado derecho */
+}
+
+.listaE1 ul {
+    list-style-type: none; /* Quita los estilos de lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Utilizar flexbox para la lista */
+}
+
+.listaE1 ul li {
+    margin-left: 20px; /* Espaciado entre elementos */
+    margin-top: 5px;
+}
+
+.listaE1 ul li a {
+    color: white; /* Color del texto de los enlaces */
+    text-decoration: none; /* Quita la subrayado predeterminado de los enlaces */
+}
+
+.listaE2 {
+    margin-left: auto; /* Empujar la lista al lado derecho */
+}
+
+.listaE2 ul {
+    list-style-type: disc; /* Quita los estilos de lista */
+    margin: 0;
+    padding: 0;
+}
+
+.listaE2 ul li {
+    margin-left: 20px; /* Espaciado entre elementos */
+    margin-top: 5px;
+}
+
+.listaE2 ul li a {
+    color: white; /* Color del texto de los enlaces */
+    text-decoration: none; /* Quita la subrayado predeterminado de los enlaces */
+}
+
+
+.encabezado2 { /*Segundo encabezado*/
+    background-color: #FFFFFF; /* Color de fondo del encabezado */
+    padding: 5px; /* Espaciado interno del encabezado */
+    color: white; /* Color del texto dentro del encabezado */
+}
+
+.contenido_encabezado2 {
+    display: flex; /* Utilizar flexbox dentro del contenedor */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.logoPNG {
+    width: 200px; /* Ancho deseado */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+}
+
+.logoPNG2 {
+    width: 250px; /* Ancho deseado */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+}
+
+.logoPNG3 {
+    width: 140px; /* Ancho deseado */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+}
+
+.logoPNG4 {
+    width: 50px; /* Ancho deseado */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+    margin-left: 10px;
+}
+
+.logoPNG5 {
+    width: 140px; /* Ancho deseado */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+    margin-left: 50px;
+}
+
+/*PIE DE PAGINA*/
+.pie-de-pagina {
+    width: 100%;
+}
+
+.footer-section {
+    padding: 1px;
+    color: #fff;
+}
+
+.section-uno {
+    background-color: #224573; /* Cambia esto al color que desees */
+}
+
+.section-dos {
+    background-color: #0E3129; /* Cambia esto al color que desees */
+}
+
+.section {
+    display: flex;
+    margin: 20px 0;
+    padding: 40px;
+    align-items: flex-start; /* Alinea los elementos verticalmente al centro */
+}
+
+.section1 {
+    text-align:left;
+    margin-left: 30px;
+    margin-right: 70px;
+}
+
+.gob {
+    width: 200px; /* Ancho deseado */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.links{
+    margin-top: 15px;
+    text-decoration: none; /* Eliminar subrayado */
+    display: inline-block;
+    color: white; /* Color del texto */
+}
+
+.linksa{
+    text-decoration: none; /* Eliminar subrayado */
+    display: inline-block;
+    color: white; /* Color del texto */
+}
+
+.map-container {
+    width: 700px;
+    height: 200px;
+    position: relative;
+    margin: 20px;
+    margin-left: 90px;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
